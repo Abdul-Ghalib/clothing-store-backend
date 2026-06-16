@@ -27,7 +27,7 @@ const startServer = async () => {
 
   } 
     catch (error) {
-    console.log("MongoDB connection failed", err);
+    console.log("MongoDB connection failed", error);
     
   }
 

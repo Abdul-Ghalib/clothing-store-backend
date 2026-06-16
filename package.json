@@ -15,11 +15,12 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/scr/index.js",
+    "start": "node backend/src/index.js",
     "dev": "nodemon backend/src/index.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.7.0",

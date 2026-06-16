@@ -14,11 +14,10 @@ const postSchema = new Schema(
       trim: true
     },
 
-    age: {
-      type: Number,
+    category: {
+      type: String,
       required: true,
-      min: 1,
-      max: 50
+      trim: true
     }
     
   },
