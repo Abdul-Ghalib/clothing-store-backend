@@ -18,6 +18,10 @@ import postRouter from "./routes/post-routes.js";
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/posts", postRouter);
 
+app.get("/", (req, res) => {
+  res.json({ message: "Clothing Store Backend API is running!" });
+});
+
 // example route: http://localhost:4000/api/v1/users/register
 
 export default app;
